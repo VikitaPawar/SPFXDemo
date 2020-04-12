@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-sol-structure-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxSolStructureWp/SpfxSolStructureWpWebPart.js",
+          "manifest": "./src/webparts/spfxSolStructureWp/SpfxSolStructureWpWebPart.manifest.json"
+        }
+      ]
+    },
+    "spfx-sol-structure-ext-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/spfxSolStructureExt/SpfxSolStructureExtApplicationCustomizer.js",
+          "manifest": "./src/extensions/spfxSolStructureExt/SpfxSolStructureExtApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxSolStructureWpWebPartStrings": "lib/webparts/spfxSolStructureWp/loc/{locale}.js",
+    "SpfxSolStructureExtApplicationCustomizerStrings": "lib/extensions/spfxSolStructureExt/loc/{locale}.js"
+  }
+}

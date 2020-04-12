@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SpfxSolStructureExt"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="b421f9f0-122b-4d2e-b945-faad0f15f97b"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
